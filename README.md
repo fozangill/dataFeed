@@ -10,6 +10,8 @@ Specifications
 
 All the three points are covered like the code is extensible. If you want to introduce new data storage options, you can create new classes implementing the DataStorageInterface or DBHandlerInterface interfaces, and the main program (cli.php) remains unchanged.
 
+The code is written in Core PHP without using any library or framework.
+
 Following are the details to run the code:
 1. Clone the repo
 2. execute the cli.php file with command line arguments e.g. php cli.php feed.xml localhost root root catalog.
