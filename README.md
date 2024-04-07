@@ -1,6 +1,6 @@
 # dataFeed
 
-Goal 
+**Goal !**
 We would like to see a command-line program that should process a local XML file (feed.xml) and push the data of that XML file to a DB of your choice (e.g., SQLite) 
 You are free to use any library or framework you need or feel comfortable with. You have a free choice of tools. Please use PHP!
 Specifications 
@@ -8,7 +8,7 @@ Specifications
 2.	Errors should be written to a logfile
 3.	The application should be tested.
 
-All the three points are covered like the code is extensible. If you want to introduce new data storage options, you can create new classes implementing the DataStorageInterface or DBHandlerInterface interfaces, and the main program (cli.php) remains unchanged.
+All the three points are covered like the code is extendable. If you want to introduce new data storage options, you can create new classes implementing the DataStorageInterface or DBHandlerInterface interfaces, and the main program (cli.php) remains unchanged.
 
 The code is written in Core PHP without using any library or framework.
 
